@@ -37,16 +37,5 @@ def restaurant_rating(filename):
     new_dict = dict(sorted_new_dic_items)
     print(new_dict)
 
-    # result = dic[words[0]]  # dic[words[1]]
-    # return result
-    # print(dic)
-    # return dic
-
-    # for restaurant, rating in dic.items():
-    #     print(restaurant, rating)
-
-    #ratings = dic.items()
-    # return ratings
-
 
 restaurant_rating('scores.txt')
